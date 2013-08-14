@@ -4,7 +4,7 @@
   "private": true,
   "main": "./app.js",
   "dependencies": {
-    "async": ">= 0.1.12",
+    "async": "~0.1.12",
     "shared-ui": "git+https://github.com/fs-webdev/shared-ui.git",
     "woodruff": "git+https://github.com/fs-webdev/woodruff.git",
     "frontier-build-tools": "git+https://github.com/fs-webdev/frontier-build-tools.git",
@@ -16,8 +16,8 @@
     "mocha": "~1.8.2"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+    "node": "0.10.x",
+    "npm": "1.2.x"
   },
   "scripts": {
     "test": "./bin/tests",
