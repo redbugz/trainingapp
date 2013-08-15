@@ -3,7 +3,7 @@
   <ul class="thumbnails">
     <li class="span4" ng-repeat="item in artifacts">
       <div class="thumbnail">
-        <img src="{{item.thumbSquareUrl}}" alt="{{item.title}}" style="width: 300px; height: 200px;" />
+        <img src="{{item.thumbUrl}}" alt="{{item.title}}" style="width: 200px;" />
         <div class="caption">
           <h3>{{item.title}}</h3>
           <p>{{item.description || item.slug}}

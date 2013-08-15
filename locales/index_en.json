@@ -1,5 +1,8 @@
 {
 	"welcome_title": "Welcome Landing Page",
 	"welcome_message": "Welcome to the trainingapp landing page. Replace this content with your own",
-  "sample_link": "View a sample page"
+  "sample_link": "View a sample page",
+  "combining_link": "View a test page for combined diacritics and fonts",
+  "about_link": "About me",
+  "featured_link": "Featured Photos"
 }

@@ -8,7 +8,8 @@
     "shared-ui": "git+https://github.com/fs-webdev/shared-ui.git",
     "woodruff": "git+https://github.com/fs-webdev/woodruff.git",
     "frontier-build-tools": "git+https://github.com/fs-webdev/frontier-build-tools.git",
-    "startup": "~0.1.12"
+    "startup": "~0.1.12",
+    "http-error": "git+https://github.com/misbach/node-http-error.git"
   },
   "devDependencies": {
     "should": "~1.2.2",

@@ -2,13 +2,16 @@
 <% assets = { 'css' : [], 'js' : [] } %>
 <div id="main" class="experiments">
   <div class="no-layout">
-    <h1 class="font21 serif"><%- t('welcome_title')%></h1>
+    <h1 class="font21 serif"><%- i18n('welcome_title')%></h1>
     <section class="basic">
       <p>
-        <%- t('welcome_message')%> <img src="<%= img('icon/arrow_left_white_11x11.png') %>" alt="">
+        <%- i18n('welcome_message')%> <img src="<%= img('icon/arrow_left_white_11x11.png') %>" alt="">
       </p>
 
-      <a href="sample" class="btn btn-water"><%- t('sample_link')%></a>
+      <a href="sample" class="btn btn-water"><%- i18n('sample_link')%></a>
+      <a href="combining" class="btn btn-water"><%- i18n('combining_link')%></a>
+      <a href="about" class="btn btn-water"><%- i18n('about_link')%></a>
+      <a href="featured-photos" class="btn btn-water"><%- i18n('featured_link')%></a>
     </section>
   </div>
 </div>
