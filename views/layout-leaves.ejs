@@ -1,0 +1,43 @@
+<!doctype html>
+<head>
+  <link href="https://edge.fscdn.org/assets/docs/fs_logo_favicon.ico" rel="icon" type="image/x-icon" />
+  <%- css('bootstrap.css') %>
+  <%- css('responsive.css') %>
+  <%- css('layout/theme-engage.css') %>
+  <%- css('leaves.css') %>
+  <% if(assets.css) { %>
+  <% for(var i=0, l=assets.css.length; i<l; i++) { %>
+  <%- css(assets.css[i]) %>
+  <% } %>
+  <% } %>
+
+  <!--[if lte IE 8]>
+  <script src="https://ajax.cdnjs.com/ajax/libs/json2/20110223/json2.js"></script>
+  <%- js("html5shiv-printshiv.js") %>
+  <![endif]-->
+
+  <%- js('jquery-1.8.2.min.js') %>
+  <%- js('inject_0.4.0_a.js') %>
+  <%- js('base.js') %>
+
+  <%- js('leaves.js') %>
+</head>
+
+<body>
+  <div id="page-wrap" class="body-content">
+    <%- body %>
+  </div>
+    <% include ./partials/leaves-header %>
+
+  <!--<div id="push"></div>-->
+
+  <!--</div>-->
+
+<% if(assets.js) { %>
+<% for(var i=0, l=assets.js.length; i<l; i++) { %>
+<%- js(assets.js[i]) %>
+<% } %>
+<% } %>
+
+</body>
+</html>
