@@ -133,6 +133,9 @@ function createALeaf(width)
     
     /* Randomly choose a leaf image and assign it to the newly created element */
     image.src = 'img/realLeaf' + randomInteger(1, 5) + '.png';
+    if (window.manifest) {
+      image.src = window.manifest.img[image.src];
+    }
     
     leafDiv.style.top = "-100px";
 

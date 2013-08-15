@@ -84,7 +84,7 @@ html, body
     top: 20px;
     width: 100%;
     height: 100px;
-    background:transparent url('img/textBackground.png') repeat-x center;
+    background:transparent url('textBackground.png') repeat-x center;
     color: #5C090A;
     font-size: 220%;
     font-family: 'Georgia';
