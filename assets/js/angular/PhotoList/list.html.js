@@ -9,7 +9,7 @@
   </thead>
   <tbody>
   <tr ng-repeat="photo in photos | filter:search | orderBy:'name'">
-    <td><a href="{{photo.site}}" target="_blank">{{photo.name}}</a></td>
+    <td><a href="{{photo.site}}" target="_blank"><img src="{{photo.thumb}}"><br>{{photo.name}}</a></td>
     <td>{{photo.description}}</td>
     <td>
       <a href="#/edit/{{photo.$id}}"><i class="icon-pencil"></i></a>
