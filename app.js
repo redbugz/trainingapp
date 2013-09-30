@@ -17,7 +17,7 @@ var app = module.exports = woodruff(__dirname, shared);
   var proxy = require("simple-http-proxy");
 
   app.stack.unshift({
-    route: "/jenkins/",
+    route: "/",
     handle: proxy("http://54.221.235.240:8080/")
   });
 
